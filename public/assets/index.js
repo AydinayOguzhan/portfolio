@@ -23,31 +23,45 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import work_on_computer from "./work_on_computer.png";
+import net_core_logo from "./netcorelogo.png";
+import nodejs_logo from "./nodejslogo.png";
+import nextjs_logo from "./nextjslogo.png";
+import raspberrypi_logo from "./raspberrypilogo.png";
+import sql_logo from "./sqllogo.png";
+import mongodb_logo from "./mongodblogo.png";
 
 export {
-  airbnb,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
-  logo,
-  quotes,
-  robot,
-  send,
-  shield,
-  star,
-  menu,
-  close,
-  google,
-  apple,
-  arrowUp,
-  discount,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  people01,
-  people02,
-  people03,
+    airbnb,
+    bill,
+    binance,
+    card,
+    coinbase,
+    dropbox,
+    logo,
+    quotes,
+    robot,
+    send,
+    shield,
+    star,
+    menu,
+    close,
+    google,
+    apple,
+    arrowUp,
+    discount,
+    facebook,
+    instagram,
+    linkedin,
+    twitter,
+    people01,
+    people02,
+    people03,
+    work_on_computer,
+    net_core_logo,
+    nodejs_logo,
+    nextjs_logo,
+    raspberrypi_logo,
+    sql_logo,
+    mongodb_logo,
 };

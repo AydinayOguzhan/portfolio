@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 export const metadata = {
-  title: "HooBank",
-  description: "Hoobank is an Modern Landing Page built with Next JS and Typescript",
+  title: "Oğuzhan Aydınay",
+  description: "Fullstack Developer",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode; }) => {

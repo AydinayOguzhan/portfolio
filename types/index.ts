@@ -1,5 +1,5 @@
 export interface FeatredCardProps {
-    icon: string;
+    icon: any;
     title: string;
     content: string;
     index: number;
