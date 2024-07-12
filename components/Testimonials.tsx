@@ -3,7 +3,7 @@ import styles from "@/styles/style";
 import FeedbackCard from "./FeedbackCard";
 const Testimonials: React.FC = () => (
   <section
-    id="clients"
+    id="education"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
   >
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
