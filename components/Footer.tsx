@@ -2,9 +2,14 @@ import styles from "@/styles/style";
 import { logo } from "@/public/assets";
 import { footerLinks, socialMedia } from "@/constants";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPaperPlane } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelopesBulk } from "@fortawesome/free-solid-svg-icons";
+
 const Footer: React.FC = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
+    {/* <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <Image
           src={logo}
@@ -56,7 +61,23 @@ const Footer: React.FC = () => (
           />
         ))}
       </div>
-    </div>
+    </div> */}
+    <footer className="footer  items-center p-4">
+      <aside className="grid-flow-col items-center">
+        <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+      </aside>
+      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <a href="https://www.linkedin.com/in/oğuzhan-aydınay-7781b21a5/" target="_blank">
+          <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+        </a>
+        <a href="https://github.com/AydinayOguzhan" target="_blank">
+          <FontAwesomeIcon icon={faGithub} size="2xl" />
+        </a>
+        <a href="mailto:aydinayoguzhan@gmail.com" target="_blank">
+          <FontAwesomeIcon icon={faEnvelope} size="2xl" />
+        </a>
+      </nav>
+    </footer>
   </section>
 );
 
