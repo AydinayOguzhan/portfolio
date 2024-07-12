@@ -6,18 +6,18 @@ import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
+import Education from "./Education";
 import Hero from "./Hero";
 
 export {
     Navbar,
-    Experiences as Billing,
+    Experiences,
     CardDeal,
-    TechSkills as Business,
+    TechSkills,
     Clients,
     CTA,
     Stats,
     Footer,
-    Testimonials,
+    Education,
     Hero
 };

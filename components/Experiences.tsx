@@ -51,7 +51,7 @@ const Experiences: React.FC = () => (
           </svg>
         </div>
         <div className="timeline-end mb-10">
-          <time className="font-mono italic">Jun 2022 - Jun2023</time>
+          <time className="font-mono italic">Jun 2022 - Jun 2023</time>
           <div className="text-lg font-black">Dokuz Eylül University</div>
           <div className="text-lg font-black">Back-end Developer</div>
           <ul>
