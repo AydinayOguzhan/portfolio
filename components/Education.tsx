@@ -29,15 +29,15 @@ const Education: React.FC = () => (
 
         <div className="flex w-full flex-col">
           <div className="card bg-base-300 rounded-box grid h-20 place-items-center">
-            <div className="text-lg font-black">Bachelor of Management Information Systems</div>
-            <div className="text-lg font-black">Dokuz Eylül University, İzmir</div>
-            <time className="font-mono italic">Sep 2020 - Jun 2023</time>
+            <div className="text-sm lg:text-lg  font-black">Bachelor of Management Information Systems</div>
+            <div className="text-sm lg:text-lg font-black">Dokuz Eylül University, İzmir</div>
+            <time className="text-sm lg:text-lg font-mono italic">Sep 2020 - Jun 2023</time>
           </div>
           <div className="divider"></div>
           <div className="card bg-base-300 rounded-box grid h-20 place-items-center">
-            <div className="text-lg font-black">Associate Degree of Computer Programming</div>
-            <div className="text-lg font-black">Adnan Menderes University, Aydın</div>
-            <time className="font-mono italic">Sep 2018 - Jun 2020</time>
+            <div className="text-sm lg:text-lg font-black">Associate Degree of Computer Programming</div>
+            <div className="text-sm lg:text-lg font-black">Adnan Menderes University, Aydın</div>
+            <time className="text-sm lg:text-lg font-mono italic">Sep 2018 - Jun 2020</time>
           </div>
         </div>
       </div>
@@ -45,18 +45,21 @@ const Education: React.FC = () => (
       <div className="card bg-base-300 rounded-box grid h-72 flex-grow place-items-center">
         <ul>
           <li>
-            <div className="text-lg font-black">2nd place at Senior Project Exhibition</div>
+            <div className="text-sm lg:text-lg font-black">2nd place at Senior Project Exhibition</div>
             <div className="">Dokuz Eylül University, İzmir</div>
+            <br />
           </li>
           <li>
-            <div className="text-lg font-black">Litum best project prize</div>
+            <div className="text-sm lg:text-lg font-black">Litum best project prize</div>
             <div className="">Dokuz Eylül University, İzmir</div>
+            <br />
           </li>
           <li>
-            <div className="text-lg font-black">Cyber Anadolu CTF Program</div>
+            <div className="text-sm lg:text-lg font-black">Cyber Anadolu CTF Program</div>
+            <br />
           </li>
           <li>
-            <div className="text-lg font-black">BAISTANBUL</div>
+            <div className="text-sm lg:text-lg font-black">BAISTANBUL</div>
           </li>
         </ul>
       </div>
