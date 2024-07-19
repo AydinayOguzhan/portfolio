@@ -2,8 +2,13 @@ import { apple, bill, google } from "@/public/assets";
 import styles, { layout } from "@/styles/style";
 import Image from "next/image";
 const Experiences: React.FC = () => (
-  <section id="experiences" className={layout.sectionReverse}>
-    <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+  <section id="experiences" className={`${styles.paddingY}`}>
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+        PROFESSIONAL EXPERIENCE
+      </h2>
+    </div>
+    <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-14">
       <li>
         <div className="timeline-middle">
           <svg

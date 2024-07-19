@@ -1,10 +1,10 @@
 import { feedback } from "@/constants";
-import styles from "@/styles/style";
+import styles, { layout } from "@/styles/style";
 import FeedbackCard from "./FeedbackCard";
 const Education: React.FC = () => (
   <section
     id="education"
-    className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}
+    className={`${styles.paddingY}  `}
   >
     {/* <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-10 mb-6 relative z-[1]">
@@ -23,8 +23,12 @@ const Education: React.FC = () => (
         <FeedbackCard key={card.id} {...card} />
       ))}
     </div> */}
-
-    <div className="flex w-full flex-col lg:flex-row">
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+        EDUCATION
+      </h2>
+    </div>
+    <div className="flex w-full flex-col lg:flex-row mt-14">
       <div className="card bg-base-300 rounded-box grid h-72 flex-grow place-items-center">
 
         <div className="flex w-full flex-col">
